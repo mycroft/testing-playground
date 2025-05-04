@@ -34,7 +34,7 @@ jobs:
         run: pip install jinja2
 
       - name: Generate README.md
-        run: python generate_readme.py
+        run: python update.py
 
       - name: Commit and Push Changes
         env:
