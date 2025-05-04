@@ -1,0 +1,10 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/main/.schema/devbox.schema.json",
+  "packages": ["python@3.13", "python313Packages.jinja2@latest"],
+  "shell": {
+    "init_hook": [". $VENV_DIR/bin/activate"],
+    "scripts": {
+      "test": ["echo \"Error: no test specified\" && exit 1"]
+    }
+  }
+}
